@@ -1,0 +1,32 @@
+main {
+    min-height: calc(100vh - 160px);
+}
+
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+#contenedor{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 15px;
+
+
+}
+
+.card{
+  min-height: 100%;
+}
+
+.card img{
+  height: 200px;
+}
+
+.card-text{
+  max-height: 150px !important;
+  overflow-y: auto;
+}
